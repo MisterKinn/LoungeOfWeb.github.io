@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lounge Of Web</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 class="clock"></h1>
+
+    <form class="hidden" id="login-form">
+        <input
+        class="login-input"
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In" />
+    </form>
+    <h1 class="hidden" id="login"></h1>
+
+    <form id="todo-form">
+        <input class="todo-form-input"
+        type="text"
+        placeholder="Write your To Do"
+        required
+        />
+    </form>
+    <ul class="todo-list"></ul>
+    <div class="quote">
+        <h2 class="quote-title"></h2>
+        <h3 class="quote-person"></h3>
+    </div>
+
+    <div id="weather">
+        <span class="first-weather"></span>
+        <span class="last-weather"></span>
+    </div>
+        <script src="todo.js"></script>
+        <script src="clock.js"></script>
+        <script src="quote.js"></script>
+        <script src="background.js"></script>
+        <script src="login.js"></script>
+        <script src="weather.js"></script>
+    </body>
+</html> 
